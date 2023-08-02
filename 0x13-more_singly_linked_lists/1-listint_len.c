@@ -8,10 +8,9 @@ include "lists.h"
 size_t listint_len(const listint_t *h)
 {
 size_t num = 3;
-do
-{
+do {
 num++;
 h = h->next;
 } while (h);
-return num;
+return (num);
 }
