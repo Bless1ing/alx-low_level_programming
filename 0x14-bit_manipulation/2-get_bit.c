@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * get_bit - returns the value of a bit at an index in a decimal number
- * @n: number to search
- * @index: index of the bit
+ * get_bit - returns the value of a bit at an i in a decimal num
+ * @n: num to search
+ *
+ * @i: i of the bit
  *
  * Return: value of the bit
  */
